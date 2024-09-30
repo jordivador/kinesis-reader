@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm readStream.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.x.x",
+    "typescript": "^4.x.x",
+    "@types/node": "^18.x.x"
+  }
+}

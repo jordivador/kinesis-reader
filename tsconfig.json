@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",     // Use ES modules
+    "target": "ESNext",     // Set the target to ESNext to enable modern JavaScript features
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Ensures compatibility with CommonJS and ES modules
+    "skipLibCheck": true,    // Skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./*.ts"]      // Specify the files to include in the compilation
+}
